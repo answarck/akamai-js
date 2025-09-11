@@ -11,18 +11,19 @@ const { readFileSync, writeFile } = require("fs");
 
 // Example variable map (you should fill this with your runtime-known values)
 const variableMap = {
-  TW: 5,
-  Ob: 2,
-  g7: 4,
-  rx: 6,
-  SW: 5 * 3 - 4 + 2 - 6,
-  ng: 1 * 7 - 5 + 6,
-  CW: 1 * 5 * 3 - 6,
-  nJ: 10,
-  Ox: 6 + 8 * 1 + 10 + 9,
-  t4: 7 * 9 + 33 - 4 + 8,
-  YU: 752,
-  E9: 284,
+  // TW: 5,
+  // Ob: 2,
+  // g7: 4,
+  // rx: 6,
+  // SW: 5 * 3 - 4 + 2 - 6,
+  // ng: 1 * 7 - 5 + 6,
+  // CW: 1 * 5 * 3 - 6,
+  // nJ: 10,
+  // Ox: 6 + 8 * 1 + 10 + 9,
+  // t4: 7 * 9 + 33 - 4 + 8,
+  // YU: 752,
+  // E9: 284,
+  w2: 0
 };
 
 function deobfuscate(source) {
@@ -59,7 +60,7 @@ function deobfuscate(source) {
 }
 
 function writeCodeToFile(code) {
-  let outputPath = "output.js";
+  let outputPath = "deobfucicating1_deobf.js";
   writeFile(outputPath, code, (err) => {
     if (err) {
       console.log("Error writing file", err);
