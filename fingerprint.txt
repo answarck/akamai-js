@@ -1,1 +1,93 @@
-"{"ver":"Zn94Iz9/RSNXgdvnnnBmu+hOSichzY8g7E+zzPsXeYY=","fpt":";-1;dis;,7;true;true;true;-330;true;24;24;true;false;-1","fpc":"4536","ajr":"MA==|28920","din":[{"nal":"en-US"},{"swi":1920},{"nps":"20030107"},{"asw":1920},{"ran":"0.0067269213"},{"wih":339},{"wdr":0},{"tsd":0},{"ibr":0},{"npl":5},{"hz1":433637},{"nap":"Gecko"},{"she":1080},{"hal":881207878687},{"ash":1080},{"adp":"cpen:0,i1:0,dm:0,cwen:0,non:1,opc:0,fc:0,sc:0,wrc:1,isc:0,vib:1,bat:0,x11:0,x12:1"},{"dau":0},{"xag":12099},{"ucs":"7391"},{"wiw":1535},{"pha":0},{"wow":1535},{"ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}],"eem":"do_dis,dm_dis,t_en","ffs":"","vev":"","inf":"","ajt":"0,0","kev":"","dme":"","mev":"","doe":"","pur":"http://delta.com/","pev":"","mst":[{"kevl":1},{"mevl":32},{"tevl":32},{"devl":0},{"dmvl":0},{"pevl":0},{"tovl":0},{"delt":3},{"it":0},{"sts":1762415757374},{"fct":1},{"dd2":18853},{"kc":0},{"mc":0},{"ww8":0},{"pc":0},{"tc":0},{"ssts":4},{"tst":0},{"rval":"-1"},{"rcfp":"-1"},{"nfas":29638832},{"jsrf":"PiZtE"},{"jsrf1":42947},{"jsrf2":73},{"signals":"0"},{"mwd":"0"},{"hea":""},{"dvc":"a3kidg3hkhkfkkwxkqQv,13,b+e+k+l+d+c+h+a+j+g+"},{"srd":"0"},{"tid":""}],"o9":0,"tev":"","sde":"0,0,0,0,1,0,0","per":"8","pde":"","oev":"","if":"","pus":0,"ffl":"i75Ob05ph71fpw","sww":{"s024":-1},"tab":0,"sws":0,"fwd":[{"fmh":""},{"fmz":""},{"ssh":"0"}],"jse":"Error extracting obfuscation keys."}"
+{
+  "ver": "Zn94Iz9/RSNXgdvnnnBmu+hOSichzY8g7E+zzPsXeYY=", //found how to generate it
+  "fpt": ";-1;dis;,7;true;true;true;-330;true;24;24;true;false;-1", // some cokkieenabled, java enabled, dontot_track
+  "fpc": "4536", //found out
+  "ajr": "MA==|107578", //some weird base64 shit going on
+  "din": [ //
+    { "nal": "en-US" }, // locale
+    { "swi": 1920 }, //screen width
+    { "nps": "20030107" },
+    { "asw": 1920 }, //screen width
+    { "ran": "0.698643720349" },
+    { "wih": 748 },
+    { "wdr": 0 },
+    { "tsd": 0 },
+    { "ibr": 0 },
+    { "npl": 5 },
+    { "hz1": 433663 },
+    { "nap": "Gecko" },
+    { "she": 1080 }, //screen height
+    { "hal": 881260071739 },
+    { "ash": 1080 }, //screen height
+    {
+      "adp": "cpen:0,i1:0,dm:0,cwen:0,non:1,opc:0,fc:0,sc:0,wrc:1,isc:0,vib:1,bat:0,x11:0,x12:1"
+    },
+    { "dau": 0 },
+    { "xag": 12099 },
+    { "ucs": "7391" },
+    { "wiw": 1535 },
+    { "pha": 0 },
+    { "wow": 1535 },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" //useragent
+    }
+  ],
+  "eem": "do_dis,dm_dis,t_en", // some sort of orientation stuff
+  "ffs": "",
+  "vev": "",
+  "inf": "",
+  "ajt": "0,0",
+  "kev": "",
+  "dme": "",
+  "mev": "",
+  "doe": "",
+  "pur": "http://delta.com/",
+  "pev": "",
+  "mst": [
+    { "kevl": 1 },
+    { "mevl": 32 },
+    { "tevl": 32 },
+    { "devl": 0 },
+    { "dmvl": 0 },
+    { "pevl": 0 },
+    { "tovl": 0 },
+    { "delt": 3 },
+    { "it": 0 },
+    { "sts": 1762520143478 },
+    { "fct": 2 },
+    { "dd2": 18854 },
+    { "kc": 0 },
+    { "mc": 0 },
+    { "ww8": 0 },
+    { "pc": 0 },
+    { "tc": 0 },
+    { "ssts": 5 },
+    { "tst": 0 },
+    { "rval": "-1" },
+    { "rcfp": "-1" },
+    { "nfas": 29638832 },
+    { "jsrf": "PiZtE" },
+    { "jsrf1": 12584 },
+    { "jsrf2": 42 },
+    { "signals": "0" },
+    { "mwd": "0" },
+    { "hea": "" },
+    { "dvc": "acihdgdacf9fYcaq1uvq,10,b+e+k+l+d+c+h+a+j+g+" },
+    { "srd": "0" },
+    { "tid": "" }
+  ],
+  "o9": 0,
+  "tev": "",
+  "sde": "0,0,0,0,1,0,0",
+  "per": "8",
+  "pde": "",
+  "oev": "",
+  "if": "",
+  "pus": 0,
+  "ffl": "i75Ob05ph71fpw", // part of the js url
+  "sww": { "s024": -1 },
+  "tab": 0,
+  "sws": 0,
+  "fwd": [{ "fmh": "" }, { "fmz": "" }, { "ssh": "0" }],
+  "jse": "Error extracting obfuscation keys."
+}

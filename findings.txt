@@ -1,0 +1,145 @@
+ver:
+	can be generated with puppeteer and be cached
+
+___________________________________________
+
+fpt:
+
+___________________________________________
+fpc:
+	give value of fpValStr to t6
+	 var tG = function(t6) {
+        if (t6 == null)
+            return -1;
+        try {
+            var M8 = 0;
+            for (var p4 = 0; p4 < t6["length"]; p4++) {
+                var Y8 = t6["charCodeAt"](p4);
+                if (Y8 < 128) {
+                    M8 = M8 + Y8;
+                }
+            }
+            return M8;
+        } catch (En) {
+            return -2;
+        }
+    };
+
+____________________________
+
+ajr:
+	
+____________________________
+
+din:
+	nal:
+		locale
+	swi:
+		screen width
+	nps:
+		engine buildstamp
+	asw:
+		screen width
+	ran:
+		random number
+	wih:
+		viewport height
+	wdr:
+		webdriver detection
+	tsd:
+		always zero
+	ibr: 
+		brave detection
+	npl:
+		plugin count
+	hz1:
+		timestamp
+	nap:
+		engine family
+	she:
+		screen height
+	hal:
+		start timestamp divided by 2
+	ash:
+		screen height
+	adp:
+		always starts with cpen:
+			0 // phantom
+			i1:0 //internet exp fingerprint
+			dm:0 //internet exp fingerprint
+			cwen:0 // chrome webstore(chrome fingerprint)
+			non:1 // connectivity (inline or not)
+			opc:0 //opera fingerprinting
+			fc:0 //firefox shit (fingerprint)
+			sc:0 //native HTMLElement implementation
+			wrc:1 // webrtc shit
+			isc:0 // some firefox fingerprint
+			vib:1  //vibration available
+			bat:0 // get battery
+			x11:0 // array for each native implementation available or not
+			x12:1 // file reader available
+	dau:
+		dom automater detection
+	xag:
+		final value is result of below operation:-
+		can_add_evnet_listener + (xml_httprequest_available << 1) + (x_domain_request_only_iexplorer << 2) + (emit_non_standard << 3) + (can_add_orientation_event << 4) + (can_add_device_motion_event << 5) + (touch_event << 6) + (spawn_non_standard << 7) + (innerWidth_available << 8) + (outer_width_available << 9) + (chrome_only << 10) + (prototype_bind_non_standard << 11) + (buffer_non_standard << 12) +pointer_event_standard << 13),
+	ucs:
+		user_agent passed to the function 
+		var tG = function(t6) {
+        if (t6 == null)
+            return -1;
+        try {
+            var M8 = 0;
+            for (var p4 = 0; p4 < t6["length"]; p4++) {
+                var Y8 = t6["charCodeAt"](p4);
+                if (Y8 < 128) {
+                    M8 = M8 + Y8;
+                }
+            }
+            return M8;
+        } catch (En) {
+            return -2;
+        }
+    };
+	wiw:
+		viewport width
+	pha:
+		phantomjs detection
+	wow:
+		outerwidth
+	ua: 
+		user agent
+
+_______________________________
+
+eem:
+	device orientation event:
+		present:
+			do_en
+		not present:
+			do_dis
+	device motion event:
+		present:
+			dm_en
+		not present:
+			dm_dis
+	device touch event:
+		present:
+			t_en
+		not present:
+			t_dis
+
+	final value: "do_*,dm_*,t_*"
+_______________________________
+
+ffs:
+	it look for the input tags in the page and check for its attributes
+_______________________________
+
+vev:
+	i think it is for visibility change fingerprinting
+_______________________________
+
+
+pur:
+	host with its protocol eg https://delta.com
