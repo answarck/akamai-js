@@ -140,6 +140,221 @@ vev:
 	i think it is for visibility change fingerprinting
 _______________________________
 
+inf:
+	same as ffs (it look for the input tags in the page and check for its attributes)
+_______________________________
+
+ajt: (incomplete)
+	some timing stuff, need to look at it.
+_______________________________
+kev:
+	
+_______________________________
+dme:
+_______________________________
+mev:
+
+_______________________________
+doe:
+
+_______________________________
+pev:
+	
+_______________________________
 
 pur:
 	host with its protocol eg https://delta.com
+_______________________________
+
+mst:
+	kevl: (incomplete)
+		[mZ5, LL5, KY5, Gv5]
+		first element + 1
+	mevl: (incomplete)
+		[mZ5, LL5, KY5, Gv5]
+		second element + 32	
+	tevl: (incomplete)
+		[mZ5, LL5, KY5, Gv5]
+		third element + 32	
+	devl:(not started yet)
+
+	dmvl: (not started yet)
+
+	pevl: (incomplete)
+		[mZ5, LL5, KY5, Gv5]
+		last element + 32
+	tovl:
+		sum of all *vl keys
+	delt:
+		current_time - starttimeTs 
+	it:
+		always zero
+	sts:
+		sensor building start time (startTs)
+	fct:
+
+	dd2:
+		timestampChunk = Sc["parseInt"](Sc["window"].bmak["startTs"] / 4064256, known_array[OY]);
+		timestampChunk1 = Sc["parseInt"](timestampChunk / 23, 10);
+
+		timestampChunk1 value during screen fingerprinting
+	kc:
+        [tZ5, sO5, mq5, UV5]
+        first element
+	mc:
+		[tZ5, sO5, mq5, UV5]
+        second element
+	ww8:
+		Sc["parseInt"](timestampChunk1 / 6, 10);
+	pc:
+		[tZ5, sO5, mq5, UV5]
+        last element
+	tc:
+		[tZ5, sO5, mq5, UV5]
+        third element
+	ssts:
+		delta time after after orientation, devicemotion and touch event (inside the fingerprint dictionary creation). (cureent_time - startTs)
+	tst:
+		always zero
+	rval:
+		CBF["rval"]
+	rcfp:
+		CBF["rCFP"]
+	nfas:
+		var S8 =
+  		Sc["Boolean"](Sc["navigator"]["credentials"]) +
+  		(Sc["Boolean"](Sc["navigator"]["appMinorVersion"]) << kZ) +
+  		(Sc["Boolean"](Sc["navigator"]["bluetooth"]) << known_array[b0]) +
+  		(Sc["Boolean"](Sc["navigator"]["storage"]) << wb) +
+  		(Sc["Boolean"](Sc["Math"]["imul"]) << known_array[kZ]) +
+  		(Sc["Boolean"](Sc["navigator"]["getGamepads"]) << Nv) +
+  		(Sc["Boolean"](Sc["navigator"]["getStorageUpdates"]) << known_array[rq]) +
+  		(Sc["Boolean"](Sc["navigator"]["hardwareConcurrency"]) << JD) +
+  		(Sc["Boolean"](Sc["navigator"]["mediaDevices"]) << gY) +
+  		(Sc["Boolean"](Sc["navigator"]["mozAlarms"]) << f0) +
+  		(Sc["Boolean"](Sc["navigator"]["mozConnection"]) << known_array[OY]) +
+  		(Sc["Boolean"](Sc["navigator"]["mozIsLocallyAvailable"]) << Ym) +
+  		(Sc["Boolean"](Sc["navigator"]["mozPhoneNumberService"]) << qU) +
+  		(Sc["Boolean"](Sc["navigator"]["msManipulationViewsEnabled"]) << zO) +
+  		(Sc["Boolean"](Sc["navigator"]["permissions"]) << known_array[Ss]) +
+  		(Sc["Boolean"](Sc["navigator"]["registerProtocolHandler"]) << jO) +
+  		(Sc["Boolean"](Sc["navigator"]["requestMediaKeySystemAccess"]) << LZ) +
+  		(Sc["Boolean"](Sc["navigator"]["requestWakeLock"]) << Rp) +
+  		(Sc["Boolean"](Sc["navigator"]["sendBeacon"]) << SP) +
+  		(Sc["Boolean"](Sc["navigator"]["serviceWorker"]) << known_array[Dv]) +
+  		(Sc["Boolean"](Sc["navigator"]["storeWebWideTrackingException"]) <<
+    		known_array[w9]) +
+  		(Sc["Boolean"](Sc["navigator"]["webkitGetGamepads"]) << mf) +
+  		(Sc["Boolean"](Sc["navigator"]["webkitTemporaryStorage"]) <<
+    		IA[Tr()[tY(x8)](p2, Ff, !!kZ, JY, Cn, qt)]()) +
+  		(Sc["Boolean"](Sc["navigator"]["parseInt"]) << C0) +
+  		(Sc["Boolean"](Sc["navigator"]["hypot"]) << rq);
+
+	jsrf:
+		value like this "" can be extracted using puppeteer ig.
+	jsrf1:
+		 var lP5 = function(mO5) {
+                    var cv5 = Sc["Math"]["floor"](Sc["Math"]["random"]() * 100000 + 10000);
+                    var qx5 = Sc["String"](mO5 * cv5);
+                    var HU5 = 0;
+                    var WS5 = [];
+                    var zr5 = qx5["length"] >= 18 ? true : false;
+                    while (WS5["length"] < 6) {
+                        WS5["push"](Sc["parseInt"](qx5["slice"](HU5, HU5 + 2), 10));
+                        HU5 = zr5 ? HU5 + 3 : HU5 + 2;
+                    }
+                    var bO5 = AU5(WS5);
+                    return [cv5, bO5];
+        pass startTs to this function and the value is first element of the return array
+	jsrf2:
+		pass startTs to this function and the value is second element of the return array
+	signals:
+		var Z05 = Sc["Boolean"](Sc["window"]["__nightmare"]) + (Sc["Boolean"](Sc["window"]["cdc_adoQpoasnfa76pfcZLmcfl_Array"]) << kZ);
+        Z05 += (Sc["Boolean"](Sc["window"]["cdc_adoQpoasnfa76pfcZLmcfl_Promise"]) << WU) + (Sc["Boolean"](Sc["window"]["cdc_adoQpoasnfa76pfcZLmcfl_Symbol"]) << wb);
+        Z05 += (Sc["Boolean"](Sc["window"]["OSMJIF"]) << Ff) + (Sc["Boolean"](Sc["window"]["_Selenium_IDE_Recorder"]) << Nv);
+        Z05 += (Sc["Boolean"](Sc["window"]["__$webdriverAsyncExecutor"]) << known_array[rq]) + (Sc["Boolean"](Sc["window"]["__driver_evaluate"]) << known_array[dR]);
+        Z05 += (Sc["Boolean"](Sc["window"]["__driver_unwrapped"]) << gY) + (Sc["Boolean"](Sc["window"]["__fxdriver_evaluate"]) << f0);
+        Z05 += (Sc["Boolean"](Sc["window"]["__fxdriver_unwrapped"]) << Tv) + (Sc["Boolean"](Sc["window"]["__lastWatirAlert"]) << IA[typeof TL()[Cf(dg)] !== '' + [][[]] ? TL()[Cf(Ib)].call(null, Rq, Xq) : TL()[Cf(gY)].call(null, Av, HK5)]());
+        Z05 += (Sc["Boolean"](Sc["window"]["__lastWatirConfirm"]) << known_array[hd]) + (Sc["Boolean"](Sc["window"]["__lastWatirPrompt"]) << IA[TL()[Cf(hX)](fZ, Xp)]());
+        Z05 += (Sc["Boolean"](Sc["window"]["__phantomas"]) << IA[typeof pY()[tv(vq)] !== '' + [][[]] ? pY()[tv(vV)].apply(null, [Gr, gn, gY, kg]) : pY()[tv(wb)](hH, b4, Un, f0)]()) + (Sc["Boolean"](Sc["window"]["__selenium_evaluate"]) << jO);
+        Z05 += (Sc["Boolean"](Sc["window"]["__selenium_unwrapped"]) << LZ) + (Sc["Boolean"](Sc["window"]["__webdriverFuncgeb"]) << Rp);
+        Z05 += (Sc["Boolean"](Sc["window"]["__webdriver__chr"]) << SP) + (Sc["Boolean"](Sc["window"]["__webdriver_evaluate"]) << OY);
+        Z05 += (Sc["Boolean"](Sc["window"]["__webdriver_script_fn"]) << hd) + (Sc["Boolean"](Sc["window"]["__webdriver_script_func"]) << known_array[YM]);
+        Z05 += (Sc["Boolean"](Sc["window"]["__webdriver_script_function"]) << OO) + (Sc["Boolean"](Sc["window"]["__webdriver_unwrapped"]) << C0);
+        Z05 += (Sc["Boolean"](Sc["window"]["awesomium"]) << rq) + (Sc["Boolean"](Sc["window"]["callSelenium"]) << dR);
+        Z05 += (Sc["Boolean"](Sc["window"]["calledPhantom"]) << known_array[I3]) + (Sc["Boolean"](Sc["window"]["calledSelenium"]) << known_array[Mb]);
+        Z05 += (Sc["Boolean"](Sc["window"]["domAutomationController"]) << Mb) + (Sc["Boolean"](Sc["window"]["watinExpressionError"]) << b0);
+        Z05 += (Sc["Boolean"](Sc["window"]["watinExpressionResult"]) << lO) + (Sc["Boolean"](Sc["window"]["spynner_additional_js_loaded"]) << C8);
+        Z05 += (Sc["Boolean"](Sc["window"]["$chrome_asyncScriptInfo"]) << dU) + (Sc["Boolean"](Sc["window"]["fmget_targets"]) << w9) + (Sc["Boolean"](Sc["window"]["geb"]) << Q2);
+
+        This key should always be "0", to show that there is no automation.
+	mwd:
+		this key check for webdriver, so this should always be "0"
+	hea: (incomplete)
+		By the look, it is always empty ""
+	dvc: (incomplete)
+
+	srd:
+		this should be always "0" since it check for debugging shit like if functions are proxied.
+	tid:
+		is there is "sessionStorage" then Sc["sessionStorage"]["getItem"]("TAB_ID")
+
+_____________________________________________
+
+o9:
+	this is always zero (0) not "0"
+
+_____________________________________________
+
+tev:
+	[Br5, Lh5, CS5, Km5, QD5, XO5]
+	value is the third element
+
+______________________________________________
+
+sde:
+	this is for selenium and for fingerprinting,
+	this should always be "0,0,0,0,1,0,0"
+______________________________________________
+
+per:
+	this should always be "8"
+______________________________________________
+
+pde: (incomplete)
+
+______________________________________________
+
+oev:
+	fifth element of [Br5, Lh5, CS5, Km5, QD5, XO5]
+
+______________________________________________
+
+if:
+	sixth element of [Br5, Lh5, CS5, Km5, QD5, XO5]
+______________________________________________
+
+pus:
+	always zero
+______________________________________________
+
+ffl:
+	it is a part of js url
+______________________________________________
+
+sww:
+	s024:
+		this is always -1
+
+______________________________________________
+
+tab:
+	this is always zero
+
+_______________________________________________
+
+sws:
+	based on this value IEF (true -> 1 false -> 2)	
+
+_______________________________________________
+

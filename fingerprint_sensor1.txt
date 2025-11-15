@@ -33,9 +33,9 @@
     }
   ],
   "eem": "do_dis,dm_dis,t_en", // some sort of orientation stuff
-  "ffs": "",
-  "vev": "",
-  "inf": "",
+  "ffs": "", // input tags
+  "vev": "", // visibility fingerprinting
+  "inf": "", // input tags
   "ajt": "0,0",
   "kev": "",
   "dme": "",
