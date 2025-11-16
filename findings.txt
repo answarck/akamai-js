@@ -1,10 +1,44 @@
+_______________________________________________
+
 ver:
 	can be generated with puppeteer and be cached
 
-___________________________________________
+_______________________________________________
 
 fpt:
+	;:
+		 for some reason always start with this
+	-1;:
+		 this is always -1 since it is from the known_array
+	dis;:
+		 this is always dis (not sure)
+	,7;:
+		["WebEx64 General Plugin Container","YouTube Plug-in","Java Applet Plug-in","Shockwave Flash","iPhotoPhotocast","SharePoint Browser Plug-in","Chrome Remote Desktop Viewer","Chrome PDF Viewer","Native Client","Unity Player","WebKit-integrierte PDF","QuickTime Plug-in","RealPlayer Version Plugin","RealPlayer(tm) G2 LiveConnect-Enabled Plug-In (32-bit)","Mozilla Default Plug-in","Adobe Acrobat","AdobeAAMDetect","Google Earth Plug-in","Java Plug-in 2 for NPAPI Browsers","Widevine Content Decryption Module","Microsoft Office Live Plug-in","Windows Media Player Plug-in Dynamic Link Library","Google Talk Plugin Video Renderer","Edge PDF Viewer","Shockwave for Director","Default Browser Helper","Silverlight Plug-In"]
 
+		loops through the plugins in the browser in check ifit matches something in the array in concat the index + ","
+	true;:
+		if window.sessionStorage present
+	true;:
+		if window.localStorage present
+	true;:
+		if window.indexedDB present
+	-330;:
+		window.Date.getTimezoneOffset()
+	true;:
+		typeof Sc["window"]["RTCPeerConnection"] === "function" || typeof Sc["window"]["mozRTCPeerConnection"] === "function" || typeof Sc["window"]["webkitRTCPeerConnection"] === "function"
+	24;:
+		colour depth
+	24;:
+		pixel depth
+	true;:
+		navigator.cookieEnabled
+	false;:
+		navigator.javaEnabled
+	-1::
+		if navigator.doNotTrack
+			navigator.doNotTrack
+		else
+			-1
 ___________________________________________
 fpc:
 	give value of fpValStr to t6
@@ -28,7 +62,28 @@ fpc:
 ____________________________
 
 ajr:
+
+	function KZ5(BP5) {
+		var rand_no = sz5();
+		hL.push(SI);
+		var DZ5 = Sc["parseInt"](BP5["deltaTimestamp"] / 60, 10);
+		var cZ5 = [Sc["btoa"](rand_no * DZ5), rand_no];
+		var bf5;
+		return bf5 = cZ5["join"]("|"),
+		hL.pop(),
+		bf5;
+	}
 	
+	give below dictionary to above function
+
+	{
+		"startTimestamp": Sc["window"].bmak["startTs"],
+		"deviceData": GP(hE, [UAF]), // this is stringified version of "din" key eg :- "en-US,1920,20030107,1920,0.331336550165,748,0,0,0,5,433848,Gecko,1080,881634721624.5,1080,cpen:0,i1:0,dm:0,cwen:0,non:1,opc:0,fc:0,sc:0,wrc:1,isc:0,vib:1,bat:0,x11:0,x12:1,0,12099,7391,1535,0,1535,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+		"mouseMoveData": mouseMoveData_,
+		"totVel": zBF,
+		"deltaTimestamp": some_sort_of_time,  // delta time from sensor building and fingerprint building time.
+	}
+
 ____________________________
 
 din:
@@ -148,22 +203,23 @@ ajt: (incomplete)
 	some timing stuff, need to look at it.
 _______________________________
 kev:
-	
+	In first request fingerprint this can be empty
 _______________________________
 dme:
+	In first request fingerprint this can be empty
 _______________________________
 mev:
-
+	In first request fingerprint this can be empty
 _______________________________
 doe:
-
-_______________________________
-pev:
-	
+	In first request fingerprint this can be empty
 _______________________________
 
 pur:
 	host with its protocol eg https://delta.com
+_______________________________
+pev:
+	In first request fingerprint this can be empty
 _______________________________
 
 mst:
@@ -251,7 +307,7 @@ mst:
   		(Sc["Boolean"](Sc["navigator"]["hypot"]) << rq);
 
 	jsrf:
-		value like this "" can be extracted using puppeteer ig.
+		value like this "PiZtE", can be extracted using puppeteer ig.
 	jsrf1:
 		 var lP5 = function(mO5) {
                     var cv5 = Sc["Math"]["floor"](Sc["Math"]["random"]() * 100000 + 10000);
@@ -356,5 +412,13 @@ _______________________________________________
 sws:
 	based on this value IEF (true -> 1 false -> 2)	
 
+_______________________________________________
+
+fwd:	(not started)
+	
+_______________________________________________
+jse:
+	this key is not needed.
+	**this key will be present iff the bm_sz cookie was not present or cookie hash is default (8888888)
 _______________________________________________
 

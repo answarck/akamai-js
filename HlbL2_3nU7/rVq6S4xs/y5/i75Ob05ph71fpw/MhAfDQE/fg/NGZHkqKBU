@@ -3857,7 +3857,7 @@
             {
                 var BR;
                 hL.push(x4);
-                return BR = new Sc[BP()[Eq(Rp)](vV, Ms, CZ, Ff)]()[PG()[m4(SP)](Av, Fb, KX, Rp)](),
+                return BR = new Sc["Date"]()["getTimezoneOffset"](),
                 hL.pop(),
                 BR;
             }
@@ -3865,19 +3865,19 @@
         case Q1:
             {
                 hL.push(K2);
-                var Z4 = [BP()[Eq(SP)].apply(null, [n2, nR, T6, dU]), m0()[dP(Dv)](Y0, !n2, qd), typeof pZ()[RV(mf)] === '' + [][[]] ? pZ()[RV(vq)](E4, dn, Ss, !{}) : pZ()[RV(vV)](dd, vr, N2, rq), typeof m0()[dP(xm)] !== [] + [][[]] ? m0()[dP(dL)](xg, Rp, LR) : m0()[dP(qU)](AW, Q2, fp), m0()[dP(C3)].apply(null, [w4, jW, vG]), typeof pY()[tv(xm)] !== 'undefined' ? pY()[tv(Ss)](Y3, zO, Ff, ![]) : pY()[tv(wb)](xg, Pp, vP, Ed), Tr()[tY(jO)](TP, Mb, dU, Ff, QW, IU), typeof BP()[Eq(nV)] === [] + [][[]] ? BP()[Eq(qU)].apply(null, [Ym, x4, Cj, m8]) : BP()[Eq(OY)].apply(null, [Hm, qU, IU, Rp]), m0()[dP(kg)](Lp, I3, vU), sZ()[qm(Ed)](Fm, Rp, pM), BP()[Eq(hd)](Un, pM, T6, OO), pZ()[RV(Sp)].call(null, b8, mY, KX, Zv), TL()[Cf(C3)](Dg, OY), BP()[Eq(mf)](pb, TH, R3, Qq), sZ()[qm(qN)].apply(null, [Nv, Mb, qb]), Tr()[tY(LZ)](Uq, zO, !!kZ, Ss, NI, UL), m0()[dP(xm)](mU, !!kZ, hX), sZ()[qm(dg)].call(null, Rp, HV, NM), typeof sZ()[qm(gn)] !== 'undefined' ? sZ()[qm(Xf)].call(null, KX, mv, nX) : sZ()[qm(JD)].apply(null, [p2, sI, sM]), pY()[tv(Dv)].apply(null, [RG, Dv, LZ, f0]), pZ()[RV(k0)](CR, Xp, !{}, r8), sZ()[qm(x8)](!!n2, E2, Dz5), pY()[tv(dL)].apply(null, [DC5, Cn, !![], !{}]), pZ()[RV(Ib)].call(null, Sj, Gb, !n2, Xf), pZ()[RV(hX)](t75, ES, vV, Xf), Tr()[tY(Rp)].call(null, LG, OO, TP, C8, JF5, rO), PG()[m4(hd)](qC5, v9, W6, OY)];
-                if (typeof Sc[typeof pZ()[RV(Mb)] !== 'undefined' ? pZ()[RV(dL)].call(null, Th5, pP, !!kZ, Q3) : pZ()[RV(vq)](Us, dn, UO, Mb)][typeof PG()[m4(kZ)] !== pZ()[RV(WU)](wK5, kZ, OO, gn) + [][[]] ? PG()[m4(mf)](Y6, X0, ES, JD) : PG()[m4(f0)](R4, q75, qU, Us)] == pY()[tv(nV)](GK5, qb, W6, TP)) {
+                var Z4 = ["WebEx64 General Plugin Container","YouTube Plug-in","Java Applet Plug-in","Shockwave Flash","iPhotoPhotocast","SharePoint Browser Plug-in","Chrome Remote Desktop Viewer","Chrome PDF Viewer","Native Client","Unity Player","WebKit-integrierte PDF","QuickTime Plug-in","RealPlayer Version Plugin","RealPlayer(tm) G2 LiveConnect-Enabled Plug-In (32-bit)","Mozilla Default Plug-in","Adobe Acrobat","AdobeAAMDetect","Google Earth Plug-in","Java Plug-in 2 for NPAPI Browsers","Widevine Content Decryption Module","Microsoft Office Live Plug-in","Windows Media Player Plug-in Dynamic Link Library","Google Talk Plugin Video Renderer","Edge PDF Viewer","Shockwave for Director","Default Browser Helper","Silverlight Plug-In"];
+                if (typeof Sc["navigator"]["plugins"] == "undefined") {
                     var HA5;
                     return hL.pop(),
                     HA5 = null,
                     HA5;
                 }
-                var kE5 = Z4[pY()[tv(n2)].apply(null, [Uq, k0, ![], Sp])];
-                var k55 = pZ()[RV(WU)](wK5, kZ, UO, rP);
+                var kE5 = Z4.length;
+                var k55 = "";
                 for (var JC5 = n2; JC5 < kE5; JC5++) {
                     var wQ = Z4[JC5];
-                    if (Sc[pZ()[RV(dL)].call(null, Th5, pP, Nv, !!kZ)][PG()[m4(mf)](Y6, X0, LZ, JD)][wQ] !== undefined) {
-                        k55 = [Tr()[tY(Nv)](gn, vq, Rp, qU, Kj, LM)](k55, sZ()[qm(Zv)].apply(null, [Uq, z0, CN]))[Tr()[tY(Nv)].apply(null, [R2, vq, R2, OO, Kj, LM])](JC5);
+                    if (Sc["navigator"]["plugins"][wQ] !== undefined) {
+                        k55 = ""["concat"](k55, ",")["concat"](JC5);
                     }
                 }
                 var Qw5;
@@ -3890,7 +3890,7 @@
             {
                 hL.push(f4);
                 var SJ;
-                return SJ = typeof Sc[typeof TL()[Cf(Tv)] === 'undefined' ? TL()[Cf(gY)].call(null, Pg, Ym) : TL()[Cf(f0)].call(null, B4, vP)][typeof m0()[dP(C0)] !== [] + [][[]] ? m0()[dP(vV)].apply(null, [Dl5, !![], N3]) : m0()[dP(qU)](Aw5, mv, fz5)] === m0()[dP(jO)].call(null, LO, !!kZ, X0) || typeof Sc[typeof TL()[Cf(mf)] === '' + [][[]] ? TL()[Cf(gY)](OY, jY) : TL()[Cf(f0)].call(null, B4, vP)][TL()[Cf(kg)].call(null, qL, Ib)] === (typeof m0()[dP(J3)] === 'undefined' ? m0()[dP(qU)](OW, hb, fM) : m0()[dP(jO)].apply(null, [LO, !kZ, X0])) || typeof Sc[TL()[Cf(f0)].apply(null, [B4, vP])][m0()[dP(Sp)](fp, !!n2, pM)] === m0()[dP(jO)].apply(null, [LO, dg, X0]),
+                return SJ = typeof Sc["window"]["RTCPeerConnection"] === "function" || typeof Sc["window"]["mozRTCPeerConnection"] === "function" || typeof Sc["window"]["webkitRTCPeerConnection"] === "function",
                 hL.pop(),
                 SJ;
             }
@@ -3902,7 +3902,7 @@
                     var JE5 = hL.length;
                     var Fz5 = ![];
                     var bK5;
-                    return bK5 = !!Sc[TL()[Cf(f0)].apply(null, [Us, vP])][TL()[Cf(xm)].call(null, HZ, hX)],
+                    return bK5 = Sc["window"]["sessionStorage"],
                     hL.pop(),
                     bK5;
                 } catch (U75) {
@@ -3922,7 +3922,7 @@
                     var PC5 = hL.length;
                     var zk5 = !!rh;
                     var Hz5;
-                    return Hz5 = !!Sc[TL()[Cf(f0)].call(null, Ww5, vP)][sZ()[qm(Qq)].apply(null, [!kZ, M3, TO])],
+                    return Hz5 = Sc["window"]["localStorage"],
                     hL.pop(),
                     Hz5;
                 } catch (m15) {
@@ -7268,7 +7268,7 @@
             {
                 hL.push(NM);
                 var kq5;
-                return kq5 = !!Sc[TL()[Cf(f0)](Zz5, vP)][Tr()[tY(SP)].apply(null, [Sp, f0, lm, k0, n2, Ns])],
+                return kq5 = Sc["window"]["indexedDB"],
                 hL.pop(),
                 kq5;
             }
@@ -8114,9 +8114,9 @@
                     var java_enabled = Sc["navigator"]["javaEnabled"] ? Sc[typeof pZ()[RV(Zv)] !== [] + [][[]] ? pZ()[RV(dL)](Em, pP, I3, Qq) : pZ()[RV(vq)](ss, CU, Fm, R2)][m0()[dP(Ss)](k2, !![], LG)]() : -kZ;
                     var donot_track = Sc["navigator"]["doNotTrack"] ? Sc[pZ()[RV(dL)](Em, pP, W6, !n2)][typeof TL()[Cf(gY)] !== 'undefined' ? TL()[Cf(dL)](xl, IU) : TL()[Cf(gY)](Y55, pX)] : -kZ;
                     var always_neg1 = -known_array[C0];
-                    var Mq5 = [pZ()[RV(WU)](v5, kZ, !{}, m3), always_neg1, typeof Tr()[tY(nV)] === [] + [][[]] ? Tr()[tY(Ff)](W6, BC5, YW, nI, UP, Ph5) : Tr()[tY(nV)](WM, wb, lm, Rs, Bk5, kY), hg(Q1, []), hg(Kz, []), hg(Oz, []), Uq5(pA, []), hg(gB, []), hg(d5, []), color_depth, pixel_depth, cookie_enabled, java_enabled, donot_track, ];
+                    var Mq5 = [pZ()[RV(WU)](v5, kZ, !{}, m3), always_neg1, typeof Tr()[tY(nV)] === [] + [][[]] ? Tr()[tY(Ff)](W6, BC5, YW, nI, UP, Ph5) : Tr()[tY(nV)](WM, wb, lm, Rs, Bk5, kY), hg(Q1, []), hg(Kz, []), hg(Oz, []), Uq5(pA, []), hg(gB, []), hg(d5, []), color_depth, pixel_depth, cookie_enabled, java_enabled, donot_track];
                     var Mx5;
-                    return Mx5 = Mq5[pY()[tv(mf)].apply(null, [tV, YO, NU, nI])](typeof m0()[dP(mf)] === 'undefined' ? m0()[dP(qU)](Wg, Ed, UA5) : m0()[dP(OO)](Wv, n2, FJ)),
+                    return Mx5 = Mq5["join"](";"),
                     hL.pop(),
                     Mx5;
                 };
@@ -8128,18 +8128,18 @@
                     pP5;
                 };
                 var gr5 = function() {
-                    var XS5 = [lb5, mr5];
+                    var XS5 = [cookie_hash, file_hash];
                     hL.push(rB5);
-                    var E35 = f8(gD5);
+                    var E35 = f8("bm_sz");
                     if (E35 !== ![]) {
                         try {
                             var cb5 = hL.length;
                             var ES5 = !!rh;
-                            var tU5 = Sc[TL()[Cf(ES)].call(null, IJ, Rj)](E35)[pY()[tv(hd)].apply(null, [sP, I3, k0, Rp])](pZ()[RV(ES)].call(null, MI, SW, Qq, Ss));
-                            if (tU5[pY()[tv(n2)].call(null, E6, k0, !n2, jW)] >= Ff) {
-                                var MU5 = Sc[sZ()[qm(f0)](Xp, lV, MV)](tU5[known_array[b0]], known_array[OY]);
-                                MU5 = Sc[m0()[dP(J3)](L2, !!kZ, qb)](MU5) ? lb5 : MU5;
-                                XS5[n2] = MU5;
+                            var tU5 = Sc["decodeURIComponent"](E35)["split"]("~");
+                            if (tU5.length >= 4) {
+                                var new_cookie_hash = Sc["parseInt"](tU5[2], known_array[OY]);
+                                new_cookie_hash = Sc["isNaN"](new_cookie_hash) ? cookie_hash : new_cookie_hash;
+                                XS5[n2] = new_cookie_hash;
                             }
                         } catch (Nv5) {
                             hL.splice(cb5 - kZ, Infinity, rB5);
@@ -8687,8 +8687,8 @@
                 };
                 var rS5 = function(hL5) {
                     var fh5 = !MT;
-                    var pO5 = lb5;
-                    var JP5 = mr5;
+                    var pO5 = cookie_hash;
+                    var JP5 = file_hash;
                     var x35 = n2;
                     var ED5 = known_array[C0];
                     hL.push(DS);
@@ -8741,7 +8741,7 @@
                         if (wP5() > x35 * cI) {
                             hP5 = !rh;
                             var ZU5;
-                            return ZU5 = LY(hA, [TL()[Cf(K2)](W3, bG), [lb5, mr5], sZ()[qm(LZ)].call(null, vG, hX, Kp), Uq5(gF, []), typeof TL()[Cf(xm)] !== '' + [][[]] ? TL()[Cf(Fm)](Rc5, XU) : TL()[Cf(gY)](sW, qN), fh5, pY()[tv(pb)].call(null, LH, f0, R2, !n2), hP5]),
+                            return ZU5 = LY(hA, [TL()[Cf(K2)](W3, bG), [cookie_hash, file_hash], sZ()[qm(LZ)].call(null, vG, hX, Kp), Uq5(gF, []), typeof TL()[Cf(xm)] !== '' + [][[]] ? TL()[Cf(Fm)](Rc5, XU) : TL()[Cf(gY)](sW, qN), fh5, pY()[tv(pb)].call(null, LH, f0, R2, !n2), hP5]),
                             hL.pop(),
                             ZU5;
                         } else {
@@ -12249,13 +12249,7 @@
                           GP(hE, [UAF]),
                           "mouseMoveData",
                           MEF,
-                          typeof BP()[Eq(WU)] !==
-                          (typeof pZ()[RV(wb)] === "" + [][[]]
-                            ? pZ()[RV(vq)].apply(null, [mE5, Zm, Rs, dL])
-                            : pZ()[RV(WU)].call(null, v55, kZ, lO, nV)) +
-                            [][[]]
-                            ? "totVel"
-                            : BP()[Eq(qU)](J3, p15, Vw5, Th5),
+                          "totVel",
                           zBF,
                           "deltaTimestamp",
                           some_sort_of_time,
@@ -12325,9 +12319,9 @@
                             fingerprint_dictionary[sZ()[qm(v9)](dR, Dv, dU)] = d1F;
                         }
                         if (gFF) {
-                            fingerprint_dictionary[pZ()[RV(BN)](fW, K2, qb, !!{})] = m0()[dP(n2)](LI, lV, Xf);
+                            fingerprint_dictionary["cst"] = m0()[dP(n2)](LI, lV, Xf);
                         } else {
-                            fingerprint_dictionary[typeof pY()[tv(Av)] !== 'undefined' ? pY()[tv(xI)](MN, v9, !!{}, Ib) : pY()[tv(wb)].apply(null, [wc5, MM, xt, Hm])] = RlF;
+                            fingerprint_dictionary["fwd"] = RlF;
                         }
                     } catch (RQ5) {
                         hL.splice(FwF - kZ, Infinity, WU);
@@ -12360,9 +12354,9 @@
                         var flF = !{};
                         var YBF = IA[BP()[Eq(nV)].apply(null, [lV, NU, AP, wb])]();
                         var DwF = nCF || gr5();
-                        if (DwF[n2] === lb5) {
+                        if (DwF[n2] === cookie_hash) {
                             var obf_key_err = TL()[Cf(Av)](zH, J3);
-                            fingerprint_dictionary[m0()[dP(Pj)].call(null, Eg, C0, jW)] = obf_key_err;
+                            fingerprint_dictionary["jse"] = obf_key_err;
                         }
                         fingerprint_unencrypted = Sc[typeof m0()[dP(NM)] !== [] + [][[]] ? m0()[dP(Un)](rW, nV, b8) : m0()[dP(qU)].call(null, qb, YW, NF5)][pZ()[RV(KX)].apply(null, [NC5, gm, r8, !![]])](fingerprint_dictionary);
                         console.log("[DEBUG] fingerprint-step-1: " + fingerprint_unencrypted);
@@ -13399,7 +13393,7 @@
                 var LM5 = Is(known_array[wb]);
                 var lookup_table = new Sc[TL()[Cf(Tv)](Kk5, SP)](v9);
                 var UD5 = pZ()[RV(WU)].apply(null, [rN, kZ, dR, qN]);
-                var lb5 = known_array[Ym];
+                var cookie_hash = known_array[Ym];
                 var vq5 = m0()[dP(hd)](Gc5, lV, m3);
                 var Nx5 = pY()[tv(LZ)](x0, nV, !!{}, N2);
                 var cx5 = typeof sZ()[qm(nV)] !== [] + [][[]] ? sZ()[qm(LZ)](m3, hX, dH) : sZ()[qm(JD)](Zv, md, kk5);
@@ -13417,7 +13411,7 @@
                 var Rs5 = pZ()[RV(rq)](Pp, bN, k0, NU);
                 var KL5 = zAF + BO5;
                 var tv5 = zAF + L1F;
-                var mr5 = Sc[pZ()[RV(dR)](Yg, Sp, Ed, mv)](pZ()[RV(WU)](rN, kZ, qb, Dv)[Tr()[tY(Nv)](YM, vq, !!{}, nV, Kj, Sk5)](known_array[zO]));
+                var file_hash = Sc["Number"](""["concat"](known_array[zO]));
                 var MCF = "".concat(pY()[tv(OO)](v6, dR, Qq, lO));
                 var SJ5 = kZ;
                 var K7F = WU;
@@ -13512,8 +13506,8 @@
                 var zD5 = {};
                 var Tx5 = dR;
                 var xL5 = {};
-                var gf5 = lb5;
-                var RO5 = mr5;
+                var gf5 = cookie_hash;
+                var RO5 = file_hash;
                 var sZ5 = IA[BP()[Eq(nV)](Hm, NU, O4, wb)]();
                 var OU5 = kZ;
                 var fO5 = pY()[tv(kZ)](gQ, dg, N2, f0);
